@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        suzaa: {
+          navy: "#0b111f",
+          blue: "#0a84ff",
+          teal: "#00b8a9",
+          "neutral-900": "#1e293b",
+          "neutral-800": "#334155",
+          "neutral-600": "#64748b",
+          "neutral-300": "#cbd5e1",
+          "neutral-200": "#e2e8f0",
+          white: "#ffffff",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
