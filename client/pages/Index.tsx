@@ -44,9 +44,7 @@ export default function Index() {
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
               <p className="text-4xl font-bold text-suzaa-navy mb-2">10,000+</p>
               <p className="text-suzaa-neutral-600">
-                <em>Supported crypto coin, chain, token</em>
-                <br />
-                <em>Chain-agnostic architecture</em>
+                <em>Supported assets across coins, tokens, and chains. Chain-agnostic.</em>
               </p>
             </div>
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
@@ -324,14 +322,13 @@ export default function Index() {
       <section className="px-4 sm:px-6 lg:px-8 py-24 bg-gradient-to-r from-suzaa-blue to-suzaa-teal">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Transform Your Fintech Operations?
+            Ready for a seamless crypto experience?
           </h2>
           <p className="text-lg text-white/90 mb-10">
-            Join leading enterprises that trust SUZAA for their payment
-            infrastructure.
+            Join countless that trust SUZAA for their payment infrastructure.
           </p>
           <button className="bg-white text-suzaa-blue px-8 py-4 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2 mx-auto">
-            Start Your Free Trial <ArrowRight className="w-4 h-4" />
+            Launch App <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
