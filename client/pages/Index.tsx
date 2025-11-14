@@ -19,7 +19,7 @@ export default function Index() {
       <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-suzaa-navy mb-6 leading-tight">
-            Enterprise Fintech for the New Era
+            Payment Infrastructure for Cryptocurrencies
           </h1>
           <p className="text-xl text-suzaa-neutral-600 mb-10 leading-relaxed max-w-2xl mx-auto">
             SUZAA provides secure, compliant payment infrastructure trusted by
@@ -28,10 +28,10 @@ export default function Index() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-suzaa-navy text-white px-8 py-4 rounded font-semibold hover:bg-suzaa-neutral-900 transition-colors flex items-center justify-center gap-2">
-              Get Started <ArrowRight className="w-4 h-4" />
+              Launch App <ArrowRight className="w-4 h-4" />
             </button>
             <button className="border-2 border-suzaa-navy text-suzaa-navy px-8 py-4 rounded font-semibold hover:bg-suzaa-navy hover:text-white transition-colors">
-              Schedule Demo
+              Github
             </button>
           </div>
         </div>
@@ -82,11 +82,11 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-suzaa-navy mb-4">
-              Built for Enterprise
+              Seamless. Transparent. Effortless
             </h2>
             <p className="text-lg text-suzaa-neutral-600 max-w-2xl mx-auto">
-              Industry-leading infrastructure designed to meet the most
-              demanding compliance and security requirements.
+              Made for day-to-day simplicity, with an intuitive flow anyone
+              can use—no crypto expertise required.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -95,11 +95,11 @@ export default function Index() {
                 <Lock className="w-6 h-6 text-suzaa-blue" />
               </div>
               <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
-                Bank-Grade Security
+                Open-Source Core
               </h3>
               <p className="text-suzaa-neutral-600">
-                Military-grade encryption and multi-layer security protocols
-                protect your assets 24/7.
+                Non-custodial and fully transparent by design. Your
+                infrastructure, your rules.
               </p>
             </div>
             <div className="p-8">
@@ -107,11 +107,11 @@ export default function Index() {
                 <Shield className="w-6 h-6 text-suzaa-blue" />
               </div>
               <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
-                Full Compliance
+                Real-Time Settlement
               </h3>
               <p className="text-suzaa-neutral-600">
-                Certified for PCI-DSS, SOC 2, GDPR, and all major regulatory
-                frameworks globally.
+                Instant confirmation and low-latency processing across any
+                chain.
               </p>
             </div>
             <div className="p-8">
@@ -119,10 +119,11 @@ export default function Index() {
                 <Zap className="w-6 h-6 text-suzaa-blue" />
               </div>
               <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
-                Instant Settlement
+                Simple Payment Links
               </h3>
               <p className="text-suzaa-neutral-600">
-                Real-time processing with settlement in seconds, not days.
+                Create and share payment links in seconds—no integrations
+                or coding required.
               </p>
             </div>
             <div className="p-8">
@@ -133,8 +134,8 @@ export default function Index() {
                 Global Reach
               </h3>
               <p className="text-suzaa-neutral-600">
-                Support for 150+ countries and over 100 currencies with local
-                payment methods.
+                Accept payments from 175+ countries with chain-agnostic
+                compatibility.
               </p>
             </div>
             <div className="p-8">
@@ -142,11 +143,11 @@ export default function Index() {
                 <TrendingUp className="w-6 h-6 text-suzaa-blue" />
               </div>
               <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
-                Scalable Infrastructure
+                Your Wallet, Your Keys
               </h3>
               <p className="text-suzaa-neutral-600">
-                Handle millions of transactions per second without performance
-                degradation.
+                Funds always go directly to your wallet. SUZAA never holds
+                or accesses your assets.
               </p>
             </div>
             <div className="p-8">
@@ -154,11 +155,11 @@ export default function Index() {
                 <BarChart3 className="w-6 h-6 text-suzaa-blue" />
               </div>
               <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
-                Advanced Analytics
+                Privacy First
               </h3>
               <p className="text-suzaa-neutral-600">
-                Real-time insights and comprehensive reporting for complete
-                financial visibility.
+                Start instantly with no KYC required. Minimal data, maximum
+                control.
               </p>
             </div>
           </div>
