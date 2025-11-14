@@ -44,7 +44,10 @@ export default function Index() {
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
               <p className="text-4xl font-bold text-suzaa-navy mb-2">10,000+</p>
               <p className="text-suzaa-neutral-600">
-                <em>Supported assets across coins, tokens, and chains. Chain-agnostic.</em>
+                <em>
+                  Supported assets across coins, tokens, and chains.
+                  Chain-agnostic.
+                </em>
               </p>
             </div>
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
