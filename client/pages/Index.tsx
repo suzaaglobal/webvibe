@@ -196,37 +196,29 @@ export default function Index() {
               Simple steps. Powerful use cases.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold text-suzaa-blue mb-4">01</div>
               <h3 className="text-lg font-semibold mb-3">Connect</h3>
               <p className="text-white/70">
-                Integrate our API with your existing systems using comprehensive
-                documentation.
+                Create your account with just an email. Receive your login PIN
+                instantly.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-suzaa-blue mb-4">02</div>
               <h3 className="text-lg font-semibold mb-3">Configure</h3>
               <p className="text-white/70">
-                Set up payment flows, compliance rules, and business logic in
-                the dashboard.
+                Add your own wallet. No custody, no KYC, full control. Your
+                wallet, your keys.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-suzaa-blue mb-4">03</div>
-              <h3 className="text-lg font-semibold mb-3">Verify</h3>
+              <h3 className="text-lg font-semibold mb-3">Use</h3>
               <p className="text-white/70">
-                Pass regulatory compliance and security certifications
-                seamlessly.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-suzaa-blue mb-4">04</div>
-              <h3 className="text-lg font-semibold mb-3">Scale</h3>
-              <p className="text-white/70">
-                Process transactions at any scale with our globally distributed
-                infrastructure.
+                Generate a payment request and share it. That&apos;s it—get paid
+                in seconds.
               </p>
             </div>
           </div>
