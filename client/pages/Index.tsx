@@ -1,6 +1,14 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight, Lock, Zap, Shield, TrendingUp, Globe, BarChart3 } from "lucide-react";
+import {
+  ArrowRight,
+  Lock,
+  Zap,
+  Shield,
+  TrendingUp,
+  Globe,
+  BarChart3,
+} from "lucide-react";
 
 export default function Index() {
   return (
@@ -14,7 +22,9 @@ export default function Index() {
             Enterprise Fintech for the New Era
           </h1>
           <p className="text-xl text-suzaa-neutral-600 mb-10 leading-relaxed max-w-2xl mx-auto">
-            SUZAA provides secure, compliant payment infrastructure trusted by leading global businesses. Streamline operations, reduce costs, and scale without limits.
+            SUZAA provides secure, compliant payment infrastructure trusted by
+            leading global businesses. Streamline operations, reduce costs, and
+            scale without limits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-suzaa-navy text-white px-8 py-4 rounded font-semibold hover:bg-suzaa-neutral-900 transition-colors flex items-center justify-center gap-2">
@@ -59,7 +69,8 @@ export default function Index() {
               Built for Enterprise
             </h2>
             <p className="text-lg text-suzaa-neutral-600 max-w-2xl mx-auto">
-              Industry-leading infrastructure designed to meet the most demanding compliance and security requirements.
+              Industry-leading infrastructure designed to meet the most
+              demanding compliance and security requirements.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -71,7 +82,8 @@ export default function Index() {
                 Bank-Grade Security
               </h3>
               <p className="text-suzaa-neutral-600">
-                Military-grade encryption and multi-layer security protocols protect your assets 24/7.
+                Military-grade encryption and multi-layer security protocols
+                protect your assets 24/7.
               </p>
             </div>
             <div className="p-8">
@@ -82,7 +94,8 @@ export default function Index() {
                 Full Compliance
               </h3>
               <p className="text-suzaa-neutral-600">
-                Certified for PCI-DSS, SOC 2, GDPR, and all major regulatory frameworks globally.
+                Certified for PCI-DSS, SOC 2, GDPR, and all major regulatory
+                frameworks globally.
               </p>
             </div>
             <div className="p-8">
@@ -104,7 +117,8 @@ export default function Index() {
                 Global Reach
               </h3>
               <p className="text-suzaa-neutral-600">
-                Support for 150+ countries and over 100 currencies with local payment methods.
+                Support for 150+ countries and over 100 currencies with local
+                payment methods.
               </p>
             </div>
             <div className="p-8">
@@ -115,7 +129,8 @@ export default function Index() {
                 Scalable Infrastructure
               </h3>
               <p className="text-suzaa-neutral-600">
-                Handle millions of transactions per second without performance degradation.
+                Handle millions of transactions per second without performance
+                degradation.
               </p>
             </div>
             <div className="p-8">
@@ -126,7 +141,8 @@ export default function Index() {
                 Advanced Analytics
               </h3>
               <p className="text-suzaa-neutral-600">
-                Real-time insights and comprehensive reporting for complete financial visibility.
+                Real-time insights and comprehensive reporting for complete
+                financial visibility.
               </p>
             </div>
           </div>
@@ -134,14 +150,16 @@ export default function Index() {
       </section>
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="bg-suzaa-navy text-white px-4 sm:px-6 lg:px-8 py-24">
+      <section
+        id="how-it-works"
+        className="bg-suzaa-navy text-white px-4 sm:px-6 lg:px-8 py-24"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">
-              How SUZAA Works
-            </h2>
+            <h2 className="text-4xl font-bold mb-4">How SUZAA Works</h2>
             <p className="text-lg text-white/70 max-w-2xl mx-auto">
-              Simple integration, powerful results. Get up and running in minutes.
+              Simple integration, powerful results. Get up and running in
+              minutes.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -149,28 +167,32 @@ export default function Index() {
               <div className="text-4xl font-bold text-suzaa-blue mb-4">01</div>
               <h3 className="text-lg font-semibold mb-3">Connect</h3>
               <p className="text-white/70">
-                Integrate our API with your existing systems using comprehensive documentation.
+                Integrate our API with your existing systems using comprehensive
+                documentation.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-suzaa-blue mb-4">02</div>
               <h3 className="text-lg font-semibold mb-3">Configure</h3>
               <p className="text-white/70">
-                Set up payment flows, compliance rules, and business logic in the dashboard.
+                Set up payment flows, compliance rules, and business logic in
+                the dashboard.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-suzaa-blue mb-4">03</div>
               <h3 className="text-lg font-semibold mb-3">Verify</h3>
               <p className="text-white/70">
-                Pass regulatory compliance and security certifications seamlessly.
+                Pass regulatory compliance and security certifications
+                seamlessly.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-suzaa-blue mb-4">04</div>
               <h3 className="text-lg font-semibold mb-3">Scale</h3>
               <p className="text-white/70">
-                Process transactions at any scale with our globally distributed infrastructure.
+                Process transactions at any scale with our globally distributed
+                infrastructure.
               </p>
             </div>
           </div>
@@ -195,7 +217,8 @@ export default function Index() {
                 Self-Hosted
               </h3>
               <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
-                Always free. Run on your own infrastructure. Unlimited payment links, unlimited wallets, full API access.
+                Always free. Run on your own infrastructure. Unlimited payment
+                links, unlimited wallets, full API access.
               </p>
               <div className="mb-8">
                 <p className="text-4xl font-bold text-suzaa-navy">
@@ -209,15 +232,18 @@ export default function Index() {
 
             {/* Basic Tier */}
             <div className="border border-suzaa-neutral-200 rounded p-12 flex flex-col">
-              <h3 className="text-xl font-bold text-suzaa-navy mb-3">
-                Basic
-              </h3>
+              <h3 className="text-xl font-bold text-suzaa-navy mb-3">Basic</h3>
               <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
-                Hosted version with limits. Limited links and wallets. Essential dashboard features.
+                Hosted version with limits. Limited links and wallets. Essential
+                dashboard features.
               </p>
               <div className="mb-8">
                 <p className="text-4xl font-bold text-suzaa-navy">
-                  Free<span className="text-lg text-suzaa-neutral-600"> – Limited</span>
+                  Free
+                  <span className="text-lg text-suzaa-neutral-600">
+                    {" "}
+                    – Limited
+                  </span>
                 </p>
               </div>
               <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
@@ -231,11 +257,13 @@ export default function Index() {
                 Business
               </h3>
               <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
-                Advanced hosted features. Higher limits, multiple wallets, webhooks, team access, priority support.
+                Advanced hosted features. Higher limits, multiple wallets,
+                webhooks, team access, priority support.
               </p>
               <div className="mb-8">
                 <p className="text-4xl font-bold text-suzaa-navy">
-                  $9.99<span className="text-lg text-suzaa-neutral-600">/month</span>
+                  $9.99
+                  <span className="text-lg text-suzaa-neutral-600">/month</span>
                 </p>
               </div>
               <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
@@ -249,12 +277,11 @@ export default function Index() {
                 Enterprise
               </h3>
               <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
-                Unlimited scale. Dedicated support, SLAs, custom integrations, compliance options.
+                Unlimited scale. Dedicated support, SLAs, custom integrations,
+                compliance options.
               </p>
               <div className="mb-8">
-                <p className="text-4xl font-bold text-suzaa-navy">
-                  Custom
-                </p>
+                <p className="text-4xl font-bold text-suzaa-navy">Custom</p>
                 <p className="text-sm text-suzaa-neutral-600">
                   Contact for pricing
                 </p>
@@ -274,7 +301,8 @@ export default function Index() {
             Ready to Transform Your Fintech Operations?
           </h2>
           <p className="text-lg text-white/90 mb-10">
-            Join leading enterprises that trust SUZAA for their payment infrastructure.
+            Join leading enterprises that trust SUZAA for their payment
+            infrastructure.
           </p>
           <button className="bg-white text-suzaa-blue px-8 py-4 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2 mx-auto">
             Start Your Free Trial <ArrowRight className="w-4 h-4" />
