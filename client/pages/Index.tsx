@@ -91,7 +91,10 @@ export default function Index() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="transition-all duration-200 hover:translate-y-[-2px]">
-              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+              <div
+                className="w-10 h-10 rounded flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#eff5ff" }}
+              >
                 <Code className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
               <h3 className="text-base font-medium text-suzaa-navy mb-3">
@@ -103,7 +106,10 @@ export default function Index() {
               </p>
             </div>
             <div className="transition-all duration-200 hover:translate-y-[-2px]">
-              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+              <div
+                className="w-10 h-10 rounded flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#eff5ff" }}
+              >
                 <Zap className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
               <h3 className="text-base font-medium text-suzaa-navy mb-3">
@@ -115,7 +121,10 @@ export default function Index() {
               </p>
             </div>
             <div className="transition-all duration-200 hover:translate-y-[-2px]">
-              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+              <div
+                className="w-10 h-10 rounded flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#eff5ff" }}
+              >
                 <Link className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
               <h3 className="text-base font-medium text-suzaa-navy mb-3">
@@ -127,7 +136,10 @@ export default function Index() {
               </p>
             </div>
             <div className="transition-all duration-200 hover:translate-y-[-2px]">
-              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+              <div
+                className="w-10 h-10 rounded flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#eff5ff" }}
+              >
                 <Globe className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
               <h3 className="text-base font-medium text-suzaa-navy mb-3">
@@ -139,7 +151,10 @@ export default function Index() {
               </p>
             </div>
             <div className="transition-all duration-200 hover:translate-y-[-2px]">
-              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+              <div
+                className="w-10 h-10 rounded flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#eff5ff" }}
+              >
                 <Wallet className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
               <h3 className="text-base font-medium text-suzaa-navy mb-3">
@@ -151,7 +166,10 @@ export default function Index() {
               </p>
             </div>
             <div className="transition-all duration-200 hover:translate-y-[-2px]">
-              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+              <div
+                className="w-10 h-10 rounded flex items-center justify-center mb-6"
+                style={{ backgroundColor: "#eff5ff" }}
+              >
                 <Shield className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
               <h3 className="text-base font-medium text-suzaa-navy mb-3">
