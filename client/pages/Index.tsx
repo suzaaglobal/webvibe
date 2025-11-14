@@ -179,7 +179,7 @@ export default function Index() {
 
       {/* Pricing Section */}
       <section id="pricing" className="bg-white px-4 sm:px-6 lg:px-8 py-24">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-suzaa-navy mb-4">
               Simple, Transparent Pricing
@@ -188,72 +188,80 @@ export default function Index() {
               No hidden fees. Scale as you grow.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            <div className="border-2 border-suzaa-neutral-200 rounded p-8">
-              <h3 className="text-2xl font-bold text-suzaa-navy mb-4">
-                Starter
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Self-Hosted Tier */}
+            <div className="border-2 border-suzaa-neutral-300 rounded p-12 flex flex-col">
+              <h3 className="text-xl font-bold text-suzaa-navy mb-3">
+                Self-Hosted
               </h3>
-              <p className="text-suzaa-neutral-600 mb-6">
-                Perfect for businesses getting started with SUZAA.
+              <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
+                Always free. Run on your own infrastructure. Unlimited payment links, unlimited wallets, full API access.
               </p>
               <div className="mb-8">
-                <p className="text-4xl font-bold text-suzaa-navy mb-2">
-                  $0<span className="text-lg text-suzaa-neutral-600">/month</span>
-                </p>
-                <p className="text-sm text-suzaa-neutral-600">
-                  + 0.5% transaction fee
+                <p className="text-4xl font-bold text-suzaa-navy">
+                  Always Free
                 </p>
               </div>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> Up to $1M/month
-                </li>
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> API access
-                </li>
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> Basic reporting
-                </li>
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> Email support
-                </li>
-              </ul>
-              <button className="w-full border-2 border-suzaa-navy text-suzaa-navy py-3 rounded font-semibold hover:bg-suzaa-navy hover:text-white transition-colors">
+              <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
                 Get Started
               </button>
             </div>
-            <div className="border-2 border-suzaa-blue rounded p-8 relative">
-              <div className="absolute -top-4 left-8 bg-suzaa-blue text-white px-4 py-1 rounded text-sm font-semibold">
-                Popular
-              </div>
-              <h3 className="text-2xl font-bold text-suzaa-navy mb-4">
-                Enterprise
+
+            {/* Basic Tier */}
+            <div className="border border-suzaa-neutral-200 rounded p-12 flex flex-col">
+              <h3 className="text-xl font-bold text-suzaa-navy mb-3">
+                Basic
               </h3>
-              <p className="text-suzaa-neutral-600 mb-6">
-                For scaling operations and complex requirements.
+              <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
+                Hosted version with limits. Limited links and wallets. Essential dashboard features.
               </p>
               <div className="mb-8">
-                <p className="text-4xl font-bold text-suzaa-navy mb-2">
+                <p className="text-4xl font-bold text-suzaa-navy">
+                  Free<span className="text-lg text-suzaa-neutral-600"> – Limited</span>
+                </p>
+              </div>
+              <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
+                Get Started
+              </button>
+            </div>
+
+            {/* Business Tier */}
+            <div className="border border-suzaa-neutral-200 rounded p-12 flex flex-col">
+              <h3 className="text-xl font-bold text-suzaa-navy mb-3">
+                Business
+              </h3>
+              <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
+                Advanced hosted features. Higher limits, multiple wallets, webhooks, team access, priority support.
+              </p>
+              <div className="mb-8">
+                <p className="text-4xl font-bold text-suzaa-navy">
                   Custom
                 </p>
                 <p className="text-sm text-suzaa-neutral-600">
-                  Contact sales for pricing
+                  Contact for pricing
                 </p>
               </div>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> Unlimited volume
-                </li>
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> Custom rates
-                </li>
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> Advanced analytics
-                </li>
-                <li className="flex items-center gap-3 text-suzaa-neutral-700">
-                  <span className="text-suzaa-blue">✓</span> 24/7 phone support
-                </li>
-              </ul>
+              <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
+                Contact Sales
+              </button>
+            </div>
+
+            {/* Enterprise Tier */}
+            <div className="border border-suzaa-neutral-200 rounded p-12 flex flex-col">
+              <h3 className="text-xl font-bold text-suzaa-navy mb-3">
+                Enterprise
+              </h3>
+              <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
+                Unlimited scale. Dedicated support, SLAs, custom integrations, compliance options.
+              </p>
+              <div className="mb-8">
+                <p className="text-4xl font-bold text-suzaa-navy">
+                  Custom
+                </p>
+                <p className="text-sm text-suzaa-neutral-600">
+                  Contact for pricing
+                </p>
+              </div>
               <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
                 Contact Sales
               </button>
