@@ -449,9 +449,9 @@ export default function Index() {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                  className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
                 >
-                  <Twitter className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <Twitter className="w-4 h-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
                   <span>X (Twitter)</span>
                 </a>
 
@@ -459,9 +459,9 @@ export default function Index() {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                  className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
                 >
-                  <Instagram className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <Instagram className="w-4 h-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
                   <span>Instagram</span>
                 </a>
 
@@ -469,9 +469,9 @@ export default function Index() {
                   href="https://github.com/suzaaglobal"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                  className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
                 >
-                  <Github className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <Github className="w-4 h-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
                   <span>GitHub</span>
                 </a>
 
@@ -479,9 +479,9 @@ export default function Index() {
                   href="https://t.me/suzaa"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                  className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
                 >
-                  <MessageCircle className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <MessageCircle className="w-4 h-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
                   <span>Telegram</span>
                 </a>
 
@@ -489,9 +489,9 @@ export default function Index() {
                   href="https://wa.me/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                  className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
                 >
-                  <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
                   <span>WhatsApp</span>
                 </a>
 
@@ -499,9 +499,9 @@ export default function Index() {
                   href="https://signal.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                  className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
                 >
-                  <Shield className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <Shield className="w-4 h-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
                   <span>Signal</span>
                 </a>
               </div>
