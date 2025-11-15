@@ -264,9 +264,14 @@ export default function Index() {
                   </span>
                 </p>
               </div>
-              <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
+              <a
+                href="https://app.suzaa.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors block text-center"
+              >
                 Get Started
-              </button>
+              </a>
             </div>
 
             {/* Business Tier */}
