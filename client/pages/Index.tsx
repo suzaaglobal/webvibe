@@ -22,9 +22,9 @@ export default function Index() {
             Payment Infrastructure for Cryptocurrencies
           </h1>
           <p className="text-xl text-suzaa-neutral-600 mb-10 leading-relaxed max-w-2xl mx-auto">
-            SUZAA provides secure, compliant payment infrastructure trusted by
-            leading global businesses. Streamline operations, reduce costs, and
-            scale without limits.
+            Open-source, self-hostable, white-label software — offered as SaaS
+            or deployable on your own servers. We charge no percentages, just a
+            simple flat fee. Suzaa is a tool, not a financial intermediary.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-suzaa-navy text-white px-8 py-4 rounded font-semibold hover:bg-suzaa-neutral-900 transition-colors flex items-center justify-center gap-2">
