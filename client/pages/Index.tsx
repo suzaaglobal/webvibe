@@ -314,9 +314,14 @@ export default function Index() {
                   Contact for pricing
                 </p>
               </div>
-              <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
+              <a
+                href="https://app.suzaa.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors block text-center"
+              >
                 Contact Sales
-              </button>
+              </a>
             </div>
           </div>
 
