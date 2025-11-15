@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">SUZAA</h3>
             <p className="text-white/70 text-sm">
-              Enterprise-grade fintech for modern businesses
+              Payment Infrastructure and Solutions
             </p>
           </div>
           <div>
@@ -26,7 +26,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
-                  Security
+                  How it works&nbsp;
                 </a>
               </li>
             </ul>
@@ -36,17 +36,17 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
-                  About
+                  Home
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
-                  Blog
+                  Docs
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
-                  Careers
+                  Contact us&nbsp;
                 </a>
               </li>
             </ul>
