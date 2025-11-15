@@ -368,23 +368,143 @@ export default function Index() {
         </div>
       </section>
 
-      {/* CTA Section with Gradient */}
+      {/* Contact Us Section with Gradient */}
       <section className="px-4 sm:px-6 lg:px-8 py-24 bg-gradient-to-r from-suzaa-blue to-suzaa-teal">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Ready for a seamless crypto experience?
-          </h2>
-          <p className="text-lg text-white/90 mb-10">
-            Join countless that trust SUZAA for their payment infrastructure.
-          </p>
-          <a
-            href="https://app.suzaa.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-suzaa-blue px-8 py-4 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2 mx-auto inline-flex"
-          >
-            Launch App <ArrowRight className="w-4 h-4" />
-          </a>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Left Column - Contact Form */}
+            <div className="text-white">
+              <h2 className="text-4xl font-bold mb-4">Ready to talk to us?</h2>
+              <p className="text-lg text-white/90 mb-10">
+                Email us at support@suzaa.com or use the form below.
+              </p>
+
+              <form onSubmit={handleSubmit} className="space-y-5">
+                <div>
+                  <label className="block text-sm font-medium text-white mb-2">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 rounded bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-white mb-2">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 rounded bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
+                    placeholder="your@email.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-white mb-2">
+                    Comment
+                  </label>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows={4}
+                    className="w-full px-4 py-3 rounded bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors resize-none"
+                    placeholder="Your message..."
+                    required
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-white text-suzaa-blue px-6 py-3 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
+                >
+                  <Send className="w-4 h-4" />
+                  Send message
+                </button>
+              </form>
+            </div>
+
+            {/* Right Column - Social Links */}
+            <div className="text-white">
+              <h2 className="text-4xl font-bold mb-4">Reach out on social</h2>
+              <p className="text-lg text-white/90 mb-8">
+                You can also find the SUZAA team on:
+              </p>
+
+              <div className="space-y-4">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                >
+                  <Twitter className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <span>X (Twitter)</span>
+                </a>
+
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                >
+                  <Instagram className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <span>Instagram</span>
+                </a>
+
+                <a
+                  href="https://github.com/suzaaglobal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                >
+                  <Github className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <span>GitHub</span>
+                </a>
+
+                <a
+                  href="https://t.me/suzaa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                >
+                  <MessageCircle className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <span>Telegram</span>
+                </a>
+
+                <a
+                  href="https://wa.me/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                >
+                  <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <span>WhatsApp</span>
+                </a>
+
+                <a
+                  href="https://signal.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-white/90 hover:text-white transition-colors group"
+                >
+                  <Shield className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  <span>Signal</span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
