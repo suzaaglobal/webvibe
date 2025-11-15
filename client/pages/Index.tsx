@@ -237,26 +237,7 @@ export default function Index() {
               No hidden fees. Scale as you grow.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Self-Hosted Tier */}
-            <div className="border-2 border-suzaa-neutral-300 rounded p-12 flex flex-col">
-              <h3 className="text-xl font-bold text-suzaa-navy mb-3">
-                Self-Hosted
-              </h3>
-              <p className="text-sm text-suzaa-neutral-800 mb-6 flex-grow">
-                Always free. Run on your own infrastructure. Unlimited payment
-                links, unlimited wallets, full API access.
-              </p>
-              <div className="mb-8">
-                <p className="text-4xl font-bold text-suzaa-navy">
-                  Always Free
-                </p>
-              </div>
-              <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
-                Get Started
-              </button>
-            </div>
-
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Basic Tier */}
             <div className="border border-suzaa-neutral-200 rounded p-12 flex flex-col">
               <h3 className="text-xl font-bold text-suzaa-navy mb-3">Basic</h3>
