@@ -299,10 +299,19 @@ export default function Index() {
           </div>
 
           {/* Self-Hosted Info Bar */}
-          <div className="mt-12 w-full bg-suzaa-neutral-200/30 rounded-lg px-6 py-4 text-center">
+          <div className="mt-12 w-full bg-suzaa-neutral-200/30 rounded-lg px-6 py-4 flex items-center justify-between">
             <p className="text-sm text-suzaa-neutral-700">
               Self-Hosted version is always free and open for the community. Unlimited links, unlimited wallets, full API access.
             </p>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-6 flex items-center gap-2 bg-white text-black px-4 py-2 rounded hover:bg-gray-100 transition-colors font-medium text-sm whitespace-nowrap"
+            >
+              <Github className="w-4 h-4" />
+              View on GitHub
+            </a>
           </div>
         </div>
       </section>
