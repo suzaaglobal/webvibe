@@ -9,7 +9,12 @@ import {
   Wallet,
   Shield,
   Github,
+  Twitter,
+  Instagram,
+  Send,
+  MessageCircle,
 } from "lucide-react";
+import { useState } from "react";
 
 export default function Index() {
   return (
