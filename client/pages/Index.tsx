@@ -45,7 +45,9 @@ export default function Index() {
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
               <p className="text-4xl font-bold text-suzaa-navy mb-2">10,000+</p>
               <p className="text-suzaa-neutral-600">
-                <em>Supported crypto assets across coins, tokens, and chains.</em>
+                <em>
+                  Supported crypto assets across coins, tokens, and chains.
+                </em>
               </p>
             </div>
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
@@ -301,7 +303,8 @@ export default function Index() {
           {/* Self-Hosted Info Bar */}
           <div className="mt-12 w-full bg-suzaa-neutral-200/30 rounded-lg px-6 py-4 flex items-center justify-between">
             <p className="text-sm text-suzaa-neutral-700">
-              Self-Hosted version is always free and open for the community. Unlimited links, unlimited wallets, full API access.
+              Self-Hosted version is always free and open for the community.
+              Unlimited links, unlimited wallets, full API access.
             </p>
             <a
               href="https://github.com"
