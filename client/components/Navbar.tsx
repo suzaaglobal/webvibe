@@ -28,6 +28,12 @@ export default function Navbar() {
               >
                 Docs
               </a>
+              <a
+                href="#contact"
+                className="text-sm text-suzaa-neutral-600 hover:text-suzaa-navy transition-colors"
+              >
+                Contact
+              </a>
             </div>
           </div>
           <div className="flex gap-4">
