@@ -353,9 +353,14 @@ export default function Index() {
           <p className="text-lg text-white/90 mb-10">
             Join countless that trust SUZAA for their payment infrastructure.
           </p>
-          <button className="bg-white text-suzaa-blue px-8 py-4 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2 mx-auto">
+          <a
+            href="https://app.suzaa.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-suzaa-blue px-8 py-4 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2 mx-auto inline-flex"
+          >
             Launch App <ArrowRight className="w-4 h-4" />
-          </button>
+          </a>
         </div>
       </section>
 
