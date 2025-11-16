@@ -82,7 +82,7 @@ export default function Index() {
       <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-suzaa-navy mb-6 leading-tight">
-            Payment Infrastructure for Cryptocurrencies
+            Just SUZAA
           </h1>
           <p className="text-xl text-suzaa-neutral-600 mb-10 leading-relaxed max-w-2xl mx-auto">
             Open-source, self-hostable, white-label software — offered as SaaS
