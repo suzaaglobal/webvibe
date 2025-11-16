@@ -23,7 +23,7 @@ export default function Navbar() {
                 Pricing
               </a>
               <a
-                href="#"
+                href="https://docs.suzaa.com/"
                 className="text-sm text-suzaa-neutral-600 hover:text-suzaa-navy transition-colors"
               >
                 Docs

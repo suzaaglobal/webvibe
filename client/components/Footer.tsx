@@ -40,7 +40,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
+                <a href="https://docs.suzaa.com/" className="text-sm text-white/70 hover:text-white transition-colors">
                   Docs
                 </a>
               </li>
@@ -55,17 +55,17 @@ export default function Footer() {
             <h4 className="font-semibold text-sm mb-4">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
+                <a href="https://docs.suzaa.com/05-legal/02-privacy-and-data" className="text-sm text-white/70 hover:text-white transition-colors">
                   Privacy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
+                <a href="https://docs.suzaa.com/05-legal/01-terms-of-use" className="text-sm text-white/70 hover:text-white transition-colors">
                   Terms
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
+                <a href="https://docs.suzaa.com/05-legal/03-policies-and-notices" className="text-sm text-white/70 hover:text-white transition-colors">
                   Compliance
                 </a>
               </li>

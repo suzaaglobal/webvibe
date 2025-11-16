@@ -61,12 +61,12 @@ export default function Index() {
               Launch App <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="https://github.com/suzaaglobal/core"
+              href="https://app.suzaa.com/recipient"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-suzaa-navy text-suzaa-navy px-8 py-4 rounded font-semibold hover:bg-suzaa-navy hover:text-white transition-colors text-center"
             >
-              Github
+              Look Up Recipient
             </a>
           </div>
         </div>
