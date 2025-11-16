@@ -24,7 +24,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#pricing"
                   className="text-sm text-white/70 hover:text-white transition-colors"
                 >
                   Pricing
@@ -32,7 +32,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#how-it-works"
                   className="text-sm text-white/70 hover:text-white transition-colors"
                 >
                   How it works&nbsp;
@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="text-sm text-white/70 hover:text-white transition-colors"
                 >
                   Contact us&nbsp;
