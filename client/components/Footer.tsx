@@ -7,9 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div>
             <h3 className="text-lg font-bold mb-4">SUZAA</h3>
-            <p className="text-white/70 text-sm">
-              Payment Infrastructure and Solutions
-            </p>
+            <p className="text-white/70 text-sm">Payments, Simplified.</p>
           </div>
           <div>
             <h4 className="font-semibold text-sm mb-4">Product</h4>

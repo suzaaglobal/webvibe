@@ -375,9 +375,7 @@ export default function Index() {
                 </p>
               </div>
               <a
-                href="https://app.suzaa.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
                 className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors block text-center"
               >
                 Contact Sales
@@ -497,7 +495,7 @@ export default function Index() {
 
               <div className="space-y-3">
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/suzaaglobal"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
