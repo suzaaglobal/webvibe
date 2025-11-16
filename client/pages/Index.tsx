@@ -405,7 +405,10 @@ export default function Index() {
       </section>
 
       {/* Contact Us Section with Gradient */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-r from-suzaa-blue to-suzaa-teal">
+      <section
+        id="contact"
+        className="px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-r from-suzaa-blue to-suzaa-teal"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-[7fr_3fr] gap-8 items-start">
             {/* Left Column - Contact Form */}
