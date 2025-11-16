@@ -54,7 +54,6 @@ export default function Index() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://app.suzaa.com/"
-              target="_blank"
               rel="noopener noreferrer"
               className="bg-suzaa-navy text-white px-8 py-4 rounded font-semibold hover:bg-suzaa-neutral-900 transition-colors flex items-center justify-center gap-2"
             >
@@ -62,7 +61,6 @@ export default function Index() {
             </a>
             <a
               href="https://app.suzaa.com/recipient"
-              target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-suzaa-navy text-suzaa-navy px-8 py-4 rounded font-semibold hover:bg-suzaa-navy hover:text-white transition-colors text-center"
             >
@@ -356,7 +354,7 @@ export default function Index() {
               Unlimited links, unlimited wallets, full API access.
             </p>
             <a
-              href="https://github.com"
+              href="https://github.com/suzaaglobal/core"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-6 flex items-center gap-2 bg-white text-black px-4 py-2 rounded hover:bg-gray-100 transition-colors font-medium text-sm whitespace-nowrap"
@@ -466,7 +464,7 @@ export default function Index() {
                 </a>
 
                 <a
-                  href="https://github.com/suzaaglobal"
+                  href="https://github.com/suzaaglobal/core"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors group"
