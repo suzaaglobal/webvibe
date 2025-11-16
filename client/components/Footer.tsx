@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">SUZAA</h3>
             <p className="text-white/70 text-sm">
-              Payment Infrastructure and Solutions
+              Payments, Simplified.
             </p>
           </div>
           <div>
