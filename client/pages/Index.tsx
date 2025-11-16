@@ -14,7 +14,8 @@ import {
   Send,
   MessageCircle,
 } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Index() {
   const [formData, setFormData] = useState({
@@ -22,6 +23,15 @@ export default function Index() {
     email: "",
     message: "",
   });
+  const [isSending, setIsSending] = useState(false);
+  const [statusMessage, setStatusMessage] = useState<{
+    type: "success" | "error";
+    text: string;
+  } | null>(null);
+
+  useEffect(() => {
+    emailjs.init("O0SrL_OrAk_3hpXCY");
+  }, []);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -30,10 +40,42 @@ export default function Index() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    setFormData({ name: "", email: "", message: "" });
+    setIsSending(true);
+    setStatusMessage(null);
+
+    try {
+      await emailjs.send(
+        "service_afzup4b",
+        "template_fwlsx8o",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+      );
+
+      setStatusMessage({
+        type: "success",
+        text: "✅ Message sent successfully! We'll get back to you soon.",
+      });
+      setFormData({ name: "", email: "", message: "" });
+
+      setTimeout(() => {
+        setStatusMessage(null);
+      }, 5000);
+    } catch (error) {
+      setStatusMessage({
+        type: "error",
+        text: "❌ Failed to send message. Please try again.",
+      });
+      setTimeout(() => {
+        setStatusMessage(null);
+      }, 5000);
+    } finally {
+      setIsSending(false);
+    }
   };
 
   return (
@@ -377,6 +419,17 @@ export default function Index() {
                 Email us at support@suzaa.com or use the form below.
               </p>
 
+              {statusMessage && (
+                <div
+                  className={`mb-4 p-4 rounded ${
+                    statusMessage.type === "success"
+                      ? "bg-green-500/20 text-green-100 border border-green-500/50"
+                      : "bg-red-500/20 text-red-100 border border-red-500/50"
+                  }`}
+                >
+                  {statusMessage.text}
+                </div>
+              )}
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
@@ -427,10 +480,11 @@ export default function Index() {
 
                 <button
                   type="submit"
-                  className="w-full bg-white text-suzaa-blue px-6 py-3 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
+                  disabled={isSending}
+                  className="w-full bg-white text-suzaa-blue px-6 py-3 rounded font-semibold hover:bg-white/90 transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <Send className="w-4 h-4" />
-                  Send message
+                  {isSending ? "Sending..." : "Send message"}
                 </button>
               </form>
             </div>
